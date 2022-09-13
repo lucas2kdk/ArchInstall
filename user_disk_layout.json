@@ -1,0 +1,67 @@
+{
+    "/dev/nvme0n1": {
+        "partitions": [
+            {
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "fat32"
+                },
+                "mountpoint": "/boot",
+                "size": "512MiB",
+                "start": "1MiB",
+                "type": "primary",
+                "wipe": true
+            },
+            {
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ext4",
+                    "mount_options": []
+                },
+                "mountpoint": "/",
+                "size": "100%",
+                "start": "513MiB",
+                "type": "primary",
+                "wipe": true
+            }
+        ],
+        "wipe": true
+    },
+    "/dev/sda": {
+        "partitions": [
+            {
+                "ESP": false,
+                "PARTUUID": "d51aea8b-4935-4433-9b41-6340f3925d48",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ext4"
+                },
+                "mountpoint": "/home",
+                "size": 872243200,
+                "start": 999424,
+                "type": "primary",
+                "wipe": true
+            }
+        ]
+    },
+    "/dev/sdb": {
+        "partitions": [
+            {
+                "ESP": false,
+                "PARTUUID": "FE98-5B19",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ext4"
+                },
+                "mountpoint": "/storage",
+                "size": 1953521664,
+                "start": 2048,
+                "type": "primary",
+                "wipe": true
+            }
+        ]
+    }
+}
