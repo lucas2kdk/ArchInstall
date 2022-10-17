@@ -32,15 +32,15 @@
         "partitions": [
             {
                 "ESP": false,
-                "PARTUUID": "d51aea8b-4935-4433-9b41-6340f3925d48",
+                "PARTUUID": "659fcd86-7beb-4253-aa3e-01f6f45296c3",
                 "boot": false,
                 "encrypted": false,
                 "filesystem": {
                     "format": "ext4"
                 },
-                "mountpoint": "/home",
-                "size": 872243200,
-                "start": 999424,
+                "mountpoint": "NETWORKSTORAGE",
+                "size": 937717760,
+                "start": 2048,
                 "type": "primary",
                 "wipe": true
             }
@@ -50,13 +50,13 @@
         "partitions": [
             {
                 "ESP": false,
-                "PARTUUID": "FE98-5B19",
+                "PARTUUID": "5eb9e0cf-f216-4290-bd0d-12bc6da5311a",
                 "boot": false,
                 "encrypted": false,
                 "filesystem": {
                     "format": "ext4"
                 },
-                "mountpoint": "/storage",
+                "mountpoint": "/home",
                 "size": 1953521664,
                 "start": 2048,
                 "type": "primary",
